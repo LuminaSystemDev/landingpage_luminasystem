@@ -1,0 +1,70 @@
+---
+---
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Lumina<span>System</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#projects-container">Trabajos</a></li>
+            <li><a href="#contact-form-section">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+    /* --- SECCIÓN DE ESTILOS (CSS) --- */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(34, 34, 34);
+        padding: 1rem 5%;
+        width: 100%;
+    }
+
+    .logo {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    a:hover{
+        color: rgb(240, 116, 116);
+    }
+
+    @media (max-width: 430px) {
+        header {
+            position: static;
+        }
+
+        .navbar {
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1rem;
+        }
+
+        .nav-links {
+            flex-direction: column;
+        }
+    }
+
+</style>

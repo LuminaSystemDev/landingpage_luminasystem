@@ -1,0 +1,70 @@
+---
+// --- SECCION DE LOGICA (JS) ---
+import { Icon } from 'astro-icon/components';
+---
+
+
+<footer>
+    <div class="social-links">
+        <!-- 
+        <ul class="social-access">
+            <li>
+                <a href="">
+                    <Icon name="mdi:instagram" class="icon" />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <Icon name="mdi:facebook" class="icon" />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <Icon name="ri:tiktok-fill" class="icon" />
+                </a>
+            </li>
+        </ul>
+        -->
+        <p>LuminaSystem - Todos los Derechos Reservados</p>
+    </div>
+</footer>
+
+<style>
+    /* --- SECCIÓN DE ESTILOS (CSS) --- */
+    footer {
+        padding: 1.5rem;
+        align-items: start;
+        background-color: rgb(2, 2, 2);
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        border-radius: 50%;
+        font-size: 24px;
+        color: white;
+    }
+
+    p {
+        padding-top: 13px;
+        font-size: 16px;
+    }
+
+    .social-links {
+        display: flex;
+        color: white;
+        gap: 10px;
+    }
+
+    .social-access {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    a:hover {
+        background: rgb(240, 116, 116);
+    }
+</style>

@@ -1,0 +1,99 @@
+---
+---
+
+<section class="projects-container" id="projects-container">
+    <h2>Trabajos Realizados</h2>
+    <div class="projects-grid">
+        <article class="project-card">
+            <div class="image-placeholder">
+                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Gestion_Activos_Informaticos.png?raw=true" 
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+            </div>
+            <div class="content">
+                <h3 class="project-title">Sistema de Gestion de Insidencias y Mantenimientos a Equipos Informaticos<h3>
+                <p>Software moderno y profesional desarrollado para dar seguimiento a incidencias en activos informaticos de la empresa.</p>
+            </div>       
+        </article>
+
+        <article class="project-card">
+            <div class="image-placeholder">
+                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Inventario_ISP.png?raw=true" 
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+            </div>
+            <div class="content">
+                <h3 class="project-title">Sistema de Gestion de Inventario de Materiales por Sede Para ISP<h3>
+                <p>Sistema profesional para la gestion del inventario de materiales de ISP por sede.</p>
+            </div>       
+        </article>
+
+        <article class="project-card">
+            <div class="image-placeholder">
+                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Gestion_Empleados.png?raw=true" 
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+            </div>
+            <div class="content">
+                <h3 class="project-title">Sistema Gestion de Empleados<h3>
+                <p>Sistema de informacion profesional desarrollado para la gestion del personal empresarial.</p>
+            </div>       
+        </article>
+    </div>
+</section>
+
+<style>
+    /* --- SECCIÓN DE ESTILOS (CSS) --- */
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    h2{
+        display: inline-block;
+        border-bottom: 3px solid rgb(240, 116, 116);
+        padding-bottom: 8px;
+        font-weight: bold;
+    }
+
+    p{
+        font-weight: normal;
+        font-size: 18px;
+        color: #adadad;
+    }
+
+    .projects-container{
+        padding: 1rem 5%;
+        color: white;
+        background-color: rgb(20, 20, 20);
+    }
+
+    .projects-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin-bottom: 50px;
+        color: white;
+        gap: 20px;
+    }
+
+    .project-card{
+        border-radius: 12px;
+        padding: 20px;
+        background: #252525;
+        overflow: hidden;
+        border: none;
+        margin-top: 20px;
+        transition: 0.3s;
+    }
+
+    .project-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .project-card:hover{
+        transform: translateY(-10PX);
+    }
+
+</style>
