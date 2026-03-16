@@ -1,4 +1,8 @@
 ---
+import { Image } from "astro:assets";
+import sistemaGestionActivos from "../assets/projects/Sistema_Gestion_Activos_Informaticos.png";
+import sistemaIventarioIsp from "../assets/projects/Sistema_Inventario_ISP.png";
+import sistemaGestionEmpleados from "../assets/projects/Sistema_Gestion_Empleados.png";
 ---
 
 <section class="projects-container" id="projects-container">
@@ -6,8 +10,10 @@
     <div class="projects-grid">
         <article class="project-card">
             <div class="image-placeholder">
-                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Gestion_Activos_Informaticos.png?raw=true" 
-                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+                <Image src={sistemaGestionActivos}
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"
+                loading="lazy"
+                decoding="async">
             </div>
             <div class="content">
                 <h3 class="project-title">Sistema de Gestion de Insidencias y Mantenimientos a Equipos Informaticos<h3>
@@ -17,8 +23,10 @@
 
         <article class="project-card">
             <div class="image-placeholder">
-                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Inventario_ISP.png?raw=true" 
-                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+                <Image src={sistemaIventarioIsp} 
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"
+                loading="lazy"
+                decoding="async">
             </div>
             <div class="content">
                 <h3 class="project-title">Sistema de Gestion de Inventario de Materiales por Sede Para ISP<h3>
@@ -28,8 +36,10 @@
 
         <article class="project-card">
             <div class="image-placeholder">
-                <img src="https://github.com/LuminaSystemDev/images_projects/blob/main/Sistema_Gestion_Empleados.png?raw=true" 
-                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"/>
+                <Image src={sistemaGestionEmpleados} 
+                alt="Imagen de sistema desarrollado por nuestro equipo de programadores en Venezuela, Maturin Estado Monagas"
+                loading="lazy"
+                decoding="async">
             </div>
             <div class="content">
                 <h3 class="project-title">Sistema Gestion de Empleados<h3>
